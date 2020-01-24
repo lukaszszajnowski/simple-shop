@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Shop</title>
+    <style>
+        div {
+            line-height: 50px;
+            font-size: 30px;
+            font-family: arial;
+        }
+
+        button {
+            background-color: #fff;
+            border: 2px solid black;
+            font-weight: bold;
+            font-size: 30px;
+            margin: 5px;
+            min-width: 50px;
+            height: 50px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        button:disabled {
+            opacity: .3;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root">
+        <!-- kontener na aplikację react  -->
+    </div>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel" src="App.js"></script>
+</body>
+
+</html>
